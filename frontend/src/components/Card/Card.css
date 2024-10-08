@@ -1,0 +1,57 @@
+:root {
+    --primary-color: 
+}
+
+. card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    height: 250px;
+    background-color: #3d2995;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card__title {
+    font-weight: 400;
+    color: #fff;
+    text-align: bold;
+}
+
+.card .image__container{
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card .image__container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.card__container{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+}
+
+.card__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+ 
+
+}
