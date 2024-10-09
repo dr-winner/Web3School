@@ -1,8 +1,4 @@
-:root {
-    --primary-color: 
-}
-
-. card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +48,5 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
- 
 
 }

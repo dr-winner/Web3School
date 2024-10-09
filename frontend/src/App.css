@@ -1,6 +1,15 @@
-body{
+body, #root {
   margin: 0;
   padding: 0;
-  background-color: gradient(180deg, #16094A 0%, #383AA9 100%);
-  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  background-color: #4B0082;
+  background-image: 
+    radial-gradient(circle at bottom right, rgba(128, 0, 128, 0.3) 0%, rgba(75, 0, 130, 0) 70%),
+    radial-gradient(circle at bottom left, rgba(128, 0, 128, 0.3) 0%, rgba(75, 0, 130, 0) 60%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.app-container {
+  color: white;
 }

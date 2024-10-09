@@ -1,0 +1,14 @@
+.headerLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid #fff;
+    margin-top: 40px;
+    padding:  30px 20px;
+}
+
+.headerLogo img{
+    width: 100px;   
+}
+
