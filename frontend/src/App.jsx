@@ -3,6 +3,9 @@ import Button from './components/Button/Button'
 import './App.css'
 import OnboardingA from './pages/Onboarding/OnboardingA/OnboardingA.jsx'
 import React, { useEffect, useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ConnectWallet from './pages/Onboarding/OnboardingA/ConnectWallet.jsx';
+import Dashboard from './pages/Onboarding/OnboardingA/Dashboard.jsx';
 
 function App() {
   const [isMobile, setIsMobile] = useState(true);
@@ -24,8 +27,13 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* <Button /> */}
-      <OnboardingA />
+      <Router>
+        <Routes>
+          <Route path="/" element={<OnboardingA />} />
+          <Route path="/connect-wallet" element={<ConnectWallet />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

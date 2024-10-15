@@ -19,12 +19,18 @@
     align-items: center;
     /* border: 1px solid #fff; */
 }
+.sub-container{
+  background: url("./src/images/BG 1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
 .content-card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 20px;
+    z-index: 1;
   }
 
   .content-card h2 {
