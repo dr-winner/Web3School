@@ -1,0 +1,92 @@
+.container {
+  background: #4a0e4e00;
+  display: flex;
+  flex-direction: column;
+  margin: 200px 0 0 0;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.profile-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegram-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #0088cc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegram-logo svg {
+  width: 24px;
+  height: 24px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.school-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #7fffd4, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(127, 255, 212, 0.5);
+}
+
+.decorative-element {
+  width: 100%;
+  max-width: 300px;
+}
+
+.decorative-element svg {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.5));
+}
+
+.cta-button {
+  background-color: #7fffd4;
+  color: #4a0e4e;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 90%;
+  max-width: 300px;
+}
+
+.cta-button:hover {
+  background-color: #5ff5c4;
+}
