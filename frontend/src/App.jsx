@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ConnectWallet from './pages/Onboarding/OnboardingA/ConnectWallet.jsx';
 import Dashboard from './pages/Onboarding/OnboardingA/Dashboard.jsx';
+import Homefooter from './pages/Onboarding/OnboardingA/Avatar/Homefooter.jsx';
 
 function App() {
   const [isMobile, setIsMobile] = useState(true);
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={<OnboardingA />} />
           <Route path="/connect-wallet" element={<ConnectWallet />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/homepage" element={<Homefooter />} />
         </Routes>
       </Router>
     </div>

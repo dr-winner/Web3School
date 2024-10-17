@@ -35,10 +35,14 @@ body {
   border-radius: 15px;
   padding: 20px;
   width: 90%;
-  max-width: 350px;
+  max-width: 300px;
   position: relative;
-  margin-bottom: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.outer-certificate{
+  background-image: url("./images/connect-img.jpeg");
+  padding: 20px 30px;
+  border-radius: 10%;
 }
 
 .certificate-content {

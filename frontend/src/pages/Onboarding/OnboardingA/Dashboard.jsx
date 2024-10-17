@@ -1,7 +1,11 @@
-import React from 'react'
-import "./Dashboard.css"
+import React from "react";
+import "./Dashboard.css";
+import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Dashboard = () => {
+  Aos.init();
   return (
     <div className="container">
       <div className="profile-wrapper">
@@ -33,20 +37,24 @@ const Dashboard = () => {
           className="avatar"
         />
         <div className="username">Bubu Manuel</div>
-        <div className="school-title">Web3 school</div>
+        <img src="./src/images/web3school.png" alt="logo" />
       </div>
-      <div className="decorative-element">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path
-            fill="#00FFFF"
-            d="M47.7,-57.2C59.7,-47.3,66.3,-30.9,68.1,-14.2C69.9,2.5,67,19.4,58.7,32.5C50.4,45.6,36.7,54.8,21.9,59.1C7.1,63.4,-8.8,62.8,-23.5,57.9C-38.2,52.9,-51.7,43.7,-60.1,30.3C-68.5,17,-71.8,-0.5,-67.3,-15.3C-62.8,-30.1,-50.5,-42.3,-37.2,-51.8C-23.9,-61.3,-9.5,-68.1,4.4,-73.1C18.3,-78,36.6,-81.1,47.7,-57.2Z"
-            transform="translate(100 100)"
-          />
-        </svg>
+      <div className="sub-container" data-aos="fade-up">
+        <p className="text">
+          The major Celo network upgrade aimed at improving scalability and
+          performance for decentralized applications (dApps) is called the Donut
+          Hardfork. This upgrade introduces various enhancements, including The
+          majorhis upgrade introduces various enhancements, including The major
+          Celo network upgrade aimed at improving scalability and performance
+          for decentralized applications (dApps) is called the Donut Hardfork.
+          This upgrade introduces various enhancements, including
+        </p>
+        <Link to="homepage" className="button-container">
+          <button className="cta-button">Go to dashboard</button>
+        </Link>
       </div>
-      <button className="cta-button">Go to dashboard</button>
     </div>
   );
-}
+};
 
 export default Dashboard;
