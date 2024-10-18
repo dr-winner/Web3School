@@ -1,6 +1,7 @@
 .OnboardingA{
     color: #fff;
     background-color: var(--primary-color);
+    padding: 16px;
 }
 
 .avatar-container{

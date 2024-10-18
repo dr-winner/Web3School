@@ -12,10 +12,11 @@ body {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 16px;
 }
 
-
+.web3-school{
+  padding: 16px;
+}
 /* Connect wallet */
 .logo{
   margin: 20px 0 70px -200px;
@@ -182,4 +183,23 @@ body {
 .track-text{
   margin-top: -4%;
   color: rgb(174, 174, 174);
+}
+/* Homepage style sheet */
+.homepage{
+  height: 100vh;
+}
+.navbar-container{
+  display: flex;
+}
+.navbar-img{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.name-span{
+  background-color: #00ffaa;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 5px;
 }
