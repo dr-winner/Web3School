@@ -162,3 +162,24 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  background-color: #1f2b5d;
+}
+.home-icon{
+  text-align: center;
+  font-size: 35px;
+  color: rgb(174, 174, 174);
+}
+.home-text{
+  margin-top: -10%;
+  text-align: center;
+  color: rgb(174, 174, 174);
+}
+.track-text{
+  margin-top: -4%;
+  color: rgb(174, 174, 174);
+}
