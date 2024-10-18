@@ -31,7 +31,7 @@ body {
 }
 
 .certificate {
-  background: linear-gradient(135deg, #2c3e50, #34495e);
+  background: rgba(191, 191, 191, 0.244);
   border-radius: 15px;
   padding: 20px;
   width: 90%;
