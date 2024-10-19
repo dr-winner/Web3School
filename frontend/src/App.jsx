@@ -34,7 +34,7 @@ function App() {
           <Route path="/" element={<OnboardingA />} />
           <Route path="/connect-wallet" element={<ConnectWallet />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/homepage" element={<Homepage />} />
+          <Route path='/homepage' element={<Homepage />} />
         </Routes>
       </Router>
     </div>
